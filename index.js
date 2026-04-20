@@ -8,7 +8,7 @@ dotenv.config();
 
 const app = express();
 
-app.use(cors({ origin: "http://localhost:4001" }));
+app.use(cors({ origin: "https://doc-frontend-umber.vercel.app" }));
 app.use(express.json());
 
 app.use("/api/auth",router);
